@@ -1,6 +1,4 @@
-  
-   
- body{ 
+body{ 
     background-image: url(/Imagenes/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,3 +55,20 @@ h2{
     font-size: 20px;
    
 } 
+
+
+
+.hola{
+    background-image: url(/Imagenes/universo.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.alo{background-color: rgba(240, 248, 255, 0.39);
+   
+}
+h2{
+    font-size: 15px;
+    color: aqua;
+}
