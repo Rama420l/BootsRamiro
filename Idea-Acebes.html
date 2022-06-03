@@ -6,29 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Entrega 2</title>
 </head>
 
 <body>
-    <header>
-        <p class="parrafos">
-            Bienvenidos
-        </p>
-        <p class="inicio">
-            Inicio De Sesion
+    <header class="container">
+        <nav class="navbar  row align-items-center">
+            <div class="container-fluid col-6">
+              <a class="navbar-brand" href="#">Bienvenidos</a>
+              <a class="navbar-brand" href="#">Inicio de Sesion</a>
+              <a href="/universo.html">universo</a>
+            </div>
+          </nav>
 
-        </p>
+        
     </header>
     <main>
-       <h1> <img src="/Imagenes/cometa-halley-e1561941519915-800x400.jpg" alt=""> </h1>
-       <h2>   <img src="/Imagenes/halley2.jpg" alt=""></h2>
+    <div class="container-fluid">
+       <div class="row justify-content-center">
+       <h1 class="col-4 "> <img src="/Imagenes/cometa-halley-e1561941519915-800x400.jpg" alt=""> </h1>
+       <h2 class="col-4 ">   <img src="/Imagenes/halley2.jpg" alt=""></h2>
 
-        <p class="comentario">
-            <em> Cometa halley</em>
-
-        </p>
-        <p class="informacion">El cometa Halley, oficialmente denominado 1P/Halley, es un cometa grande y brillante que orbita alrededor del
+    
+      
+        
+     <p class="informacion col-10">El cometa Halley, oficialmente denominado 1P/Halley, es un cometa grande y brillante que orbita alrededor del
             Sol cada 75 años en promedio; su período orbital puede oscilar entre 74 y 79 años.2​ Es uno de los mejor
             conocidos y más brillantes cometas de "periodo corto" de la nube de Oort. Halley es el único de período
             corto que es visible a simple vista desde la Tierra, y también el único cometa a simple vista que quizás
@@ -57,17 +61,31 @@
             agua, dióxido de carbono y amoníaco) y polvo. Las misiones también proporcionaron informaciones que
             esencialmente reformaron y reconfiguraron esas ideas. Por ejemplo, ahora se entiende que la superficie de
             Halley está en gran parte compuesta por polvo, materiales no volátiles, y que solo una pequeña parte de ella
-            está cubierta de hielo.</p>
-            <a class="fuente"href="https://es.wikipedia.org/wiki/Cometa_Halley">
-                fuente
-            </a>
+            está cubierta de hielo.
+        </p>  
+        
+            <div class="row ">
+            <p class="comentarios col-10">
+                <em> Cometa halley
+                </em>
+            </p> 
+            <a class="fuente col-2"href="https://es.wikipedia.org/wiki/Cometa_Halley">
+                fuentes
+                 
+
+        
+            </div>       
 
 
     </main>
+    <footer>
+
+
+    </footer>
 
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>
