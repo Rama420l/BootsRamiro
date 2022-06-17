@@ -4,16 +4,19 @@ $marginp:600px;
 $sty: dotted;
 $wd: 10%;
 $colc:rgba(79, 4, 4, 0.708);
+@import "univers";
 
-
-
+@mixin fondo1 {
+    background-image: url(/Imagenes/fondo.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+    
 
  .body{
 
-    background-image: url(/Imagenes/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+@include fondo1();
     .parrafos{
         color: $colorp;
         font-family:'Times New Roman', Times, serif;
@@ -47,10 +50,9 @@ $colc:rgba(79, 4, 4, 0.708);
             border-bottom-style: $sty;
             border-bottom-color: $colc;
         }
-        .informacion{
+        .informacion {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: $colorp;
-            background-color:rgba(0, 255, 255, 0.331) ;
             font-style: italic;
         }
         .fuente{
@@ -60,21 +62,6 @@ $colc:rgba(79, 4, 4, 0.708);
 
 
 
-    }
-}
-
-.hola{
-    background-image: url(/Imagenes/universo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    .alo{
-        background-color:rgba(240, 248, 255, 0.39) ;
-
-    }
-    h2{
-        font-size: ($tamfon/2)-5;
-        color: aqua;
     }
 }
 
